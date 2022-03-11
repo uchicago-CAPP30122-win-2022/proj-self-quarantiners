@@ -72,7 +72,7 @@ def launch():
     def open_comm():
         fig = an.plot_commodity()
         window = Toplevel(root)
-        window.title("Energy price data")
+        window.title("Commodities price data")
         window.geometry("%dx%d" % (width, height))
         canvas = FigureCanvasTkAgg(fig, master = window)  
         canvas.draw()
